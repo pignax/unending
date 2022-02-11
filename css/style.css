@@ -2769,7 +2769,13 @@ input[type="tel"]:focus {
 
 /* custom */
 .text-logo {
-  font-family: "AustinBold, Austin";
-  font-weight: bold;
-  font-size: 40px;
+  height: 150px;
+}
+
+.customHeight {
+  height: 100vh;
+}
+
+.customTop {
+  margin-top: 0px;
 }
