@@ -2835,8 +2835,8 @@ input[type="tel"]:focus {
 
 @media only screen and (max-width: 425) {
   .patter {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
   }
 }
 
