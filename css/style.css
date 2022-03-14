@@ -2839,3 +2839,14 @@ input[type="tel"]:focus {
     height: 40px;
   }
 }
+
+.customBox{
+  background-color: #f7f7f7;
+}
+
+.imgCustomBox {
+  width: 40%!important;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
