@@ -300,11 +300,8 @@ input[type="tel"]:focus {
 
 @media (max-width: 768px) {
   .category-box .content {
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     text-align: center;
+    padding-top: 0px;
   }
 }
 
@@ -664,8 +661,8 @@ input[type="tel"]:focus {
 }
 
 .top-header .container {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #dedede;
 }
 
@@ -1062,16 +1059,12 @@ input[type="tel"]:focus {
 
 .heroSliderArrow.prevArrow {
   left: 20px;
+  top: 55%;
 }
 
 .heroSliderArrow.nextArrow {
   right: 20px;
-}
-
-@media (max-width: 768px) {
-  .heroSliderArrow {
-    display: none !important;
-  }
+  top: 55%;
 }
 
 .product-item {
@@ -2835,8 +2828,8 @@ input[type="tel"]:focus {
 
 @media only screen and (max-width: 425px) {
   .patter {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -2848,5 +2841,10 @@ input[type="tel"]:focus {
   width: 40%!important;
   position: absolute;
   left: 30%;
-  top: 20%;
+  top: 30%;
+}
+
+.custommargin{
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
