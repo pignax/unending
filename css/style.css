@@ -2848,3 +2848,9 @@ input[type="tel"]:focus {
   margin-bottom: 20px;
   margin-top: 50px;
 }
+
+.img-spedizione {
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 23%;
+}
