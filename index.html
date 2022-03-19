@@ -222,9 +222,9 @@
 				<div class="col-md-6" data-toggle="modal" data-target="#modalOne">
 					<div class="category-box customBox">
 						<a href="#!">
-							<img class="imgCustomBox" src="images/shop/category/ category-1.jpeg" alt="" />
+							<img class="imgCustomBox" src="images/shop/category/category-1.jpeg" alt="" />
 							<div class="content">
-								<h3>Scopri come donare i tuoi abiti e ottenere subito uno sconto</h3>
+								<h3>Iscriviti alla nostra newsletter</h3>
 							</div>
 						</a>	
 					</div>
@@ -235,45 +235,59 @@
 						<a href="#!">
 							<img class="imgCustomBox" src="images/shop/category/ category-2.jpeg" alt="" />
 							<div class="content">
-								<h3>Crea la tua etichetta di spedizione</h3>
+								<h3>Scopri come donare i tuoi abiti e ottenere subito uno sconto</h3>
 							</div>
 						</a>	
 					</div>
+				
 				</div>
 			</div>
 		</div>
 	</section>
 
-		<!-- Modal -->
-		<div class="modal product-modal fade" id="modalOne">
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<i class="tf-ion-close"></i>
-			</button>
-		  	<div class="modal-dialog " role="document">
-		    	<div class="modal-content">
-			      	<div class="modal-body">
-			        	<div class="row">
-			        		<div class="col-md-8 col-sm-6 col-xs-12">
-			        			<div class="modal-image">
-				        			<img class="img-responsive" src="images/shop/products/modal-product.jpg" alt="product-img" />
-			        			</div>
-			        		</div>
-			        		<div class="col-md-4 col-sm-6 col-xs-12">
-			        			<div class="product-short-details">
-			        				<h2 class="product-title">Modale uno</h2>
-			        				<p class="product-price">€200</p>
-			        				<p class="product-short-description">
-			        					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-			        				</p>
-			        				<a href="cart.html" class="btn btn-main">Add To Cart</a>
-			        				<a href="product-single.html" class="btn btn-transparent">View Product Details</a>
-			        			</div>
-			        		</div>
-			        	</div>
-			        </div>
-		    	</div>
-		  	</div>
-		</div><!-- /.modal -->
+	<div class="modal product-modal fade" id="modalOne">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<i class="tf-ion-close"></i>
+		</button>
+		  <div class="modal-dialog " role="document">
+			<div class="modal-content">
+				  <div class="modal-body">
+					<div class="row">
+						<div class="contact-form col-md-12" >
+							<h3 class="product-title">Iscriviti alla newsletter Unending</h3>
+							<p class="product-short-description">Compila i dati sotto riportati</p>
+							<form id="contact-form" method="post" action="" role="form">
+							
+								<div class="form-group">
+									<input type="text" placeholder="Nome" class="form-control" name="name" id="name">
+								</div>
+
+								<div class="form-group">
+									<input type="text" placeholder="Cognome" class="form-control" name="name" id="name">
+								</div>
+								
+								<div class="form-group">
+									<input type="email" placeholder="Email" class="form-control" name="email" id="email">
+								</div>
+
+								<div id="mail-success" class="success">
+									Thank you. The Mailman is on His Way :)
+								</div>
+								
+								<div id="mail-fail" class="error">
+									Sorry, don't know what happened. Try later :(
+								</div>
+								
+								<div id="cf-submit">
+									<input type="submit" id="contact-submit" class="btn btn-transparent" value="Iscriviti">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		  </div>
+	</div><!-- /.modal -->
 
 		<div class="modal product-modal fade" id="modalTwo">
 			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -283,24 +297,17 @@
 		    	<div class="modal-content">
 			      	<div class="modal-body">
 			        	<div class="row">
-			        		<!-- <div class="col-md-8 col-sm-6 col-xs-12">
-			        			<div class="modal-image">
-				        			<img class="img-responsive" src="images/shop/products/modal-product.jpg" alt="product-img" />
-			        			</div>
-			        		</div>
-			        		<div class="col-md-4 col-sm-6 col-xs-12">
-			        			<div class="product-short-details">
-			        				<h2 class="product-title">Modale due</h2>
-			        				<p class="product-price">€200</p>
-			        				<p class="product-short-description">
-			        					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-			        				</p>
-			        				<a href="cart.html" class="btn btn-main">Add To Cart</a>
-			        				<a href="product-single.html" class="btn btn-transparent">View Product Details</a>
-			        			</div>
-			        		</div> -->
 							<div class="contact-form col-md-12" >
-								<h3 class="product-title">Prepara gli abiti usati da donare ad Unending, prepara un pacco stampa e attacca l’etichetta, ora sei pronto a spedire!</h3>
+								<h3 class="product-title">Dona i tuoi abiti e ottieni subito uno sconto Unending!</h3>
+								<p class="product-short-description">
+									Ogni anno vengono prodotti 100 miliardi di capi d’abbigliamento e ben 70 milioni di tonnellate di abiti usati vengono buttati senza una seconda possibilità, il 48% dei vestiti che scartiamo sarebbero ancora perfettamente utilizzabili in ottimo stato.<br> Unending vuole instaurare una catena sostenibile per provare a trovare soluzioni a questo problema. Per noi ogni singolo tessuto, capo o stoffa è senza fine tutto ha una seconda possibilità di diventare altro grazie alla creatività. Per questo sosteniamoci!
+								</p>
+								<img class="imgModal" src="./images/imgModal.jpeg" alt="ric">
+								<p class="product-short-description">Donaci i tuoi capi usati (intimo escluso) prepara la box da spedire scarica l’etichetta e portali al punto postale più vicino a te, la spedizione è a cario di Unending. 
+									In cambio otterrai una mail con uno sconto Unending sulla collezione o sulle customizzazioni. Lo sconto varia in base al numero di capi spediti.</p>
+								<img class="imgModalTwo" src="./images/img2modal.png" alt="ric">
+								<p class="product-short-description">Perchè lo facciamo? Per noi ogni singolo tessuto rappresenta una risorsa per poter lavorare a tanti nuovi jeans, utilizziamo solo materiali già esistenti per avere un totale riciclo! <br>NON BUTTATE GRAZIE!</p>
+								<h3 class="product-title">Prepara gli abiti usati da donare ad Unending, stampa e attacca l’etichetta, ora sei pronto a spedire!</h3>
 								<p class="product-short-description">Compila i dati sotto riportati</p>
 								<form id="contact-form" method="post" action="" role="form">
 								
