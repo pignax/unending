@@ -1067,8 +1067,15 @@ input[type="tel"]:focus {
   top: 55%;
 }
 
-.product-item {
-  margin-bottom: 30px;
+@media only screen and (max-width: 768px) {
+  .heroSliderArrow.prevArrow {
+    top: 90%;
+  }
+  
+  .heroSliderArrow.nextArrow {
+    top: 90%;
+  }
+  
 }
 
 .product-item .product-thumb {
