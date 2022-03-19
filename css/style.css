@@ -2849,3 +2849,11 @@ input[type="tel"]:focus {
   margin-bottom: 20px;
   margin-top: 50px;
 }
+
+.icon {
+  width: 30px;
+}
+
+.mappa {
+  width: 100%;
+}
